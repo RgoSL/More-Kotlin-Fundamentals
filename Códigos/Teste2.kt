@@ -1,5 +1,14 @@
-enumclasse de enumclasse de enum  Data de nascimento {classe Daypart  {
-   Manhã,  
+enum class Daypart {
+    MORNING,
+    AFTERNOON,
+    EVENING,
+}
 
-  Classe de dados Evento ( classe Event(
- título de val: string val: string val título: string
+// Código Anterior Atualizado
+
+data class Event(
+    val title: String,
+    val description: String? = null,
+    val daypart: Daypart,
+    val durationInMinutes: Int,
+)
