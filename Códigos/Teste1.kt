@@ -1,2 +1,6 @@
-dataClasse de dados Evento (classe Event(
- título de val: string val: string val título: string
+data class Event(
+    val title: String,
+    val description: String? = null,
+    val daypart: String,
+    val durationInMinutes: Int,
+)
