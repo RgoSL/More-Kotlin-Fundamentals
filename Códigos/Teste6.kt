@@ -1,1 +1,1 @@
-println("Último evento do dia: ${events.last().title}")("Último evento do dia: ${events.last().title}")
+println("Last event of the day: ${events.last().title}")
