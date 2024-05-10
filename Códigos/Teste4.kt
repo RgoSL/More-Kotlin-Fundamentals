@@ -1,1 +1,2 @@
-valval shortEvents = events.filter { it.durationInMinutes <shortEvents = events.filter { it.durationInMinutes <
+val shortEvents = events.filter { it.durationInMinutes < 60 }
+println("You have ${shortEvents.size} short events.")
